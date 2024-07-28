@@ -1,0 +1,631 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+#nav-bar{
+   background-color: transparent !important;
+}
+.nav1{
+    background-image: url("https://www.hdwallpapers.in/download/paris_eiffel_tower_france_with_blue_sky_background_hd_travel-HD.jpg");
+    height: 100vh;
+}
+.nav-head{
+    font-weight: 700;
+    color: orange;
+    font-size: 50px;
+}
+.links{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.links:hover{
+    color: orange;
+}
+.home-content{
+ margin-left: 65%;
+ margin-top: 13%;
+ color: white;
+}
+.head1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.head2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Playwrite AR", cursive;
+}
+.head3{
+    font-size: 70px;
+    font-weight: 800;
+}
+.head4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Playwrite AR", cursive;
+}
+.en-btn{
+    margin-left: 680px;
+    width: 120px;
+    font-weight: 700;
+}
+#item-style
+{
+    color: white;
+}
+/* honet */
+#honey{
+    margin: 5% 5% 5% 5%;
+}
+.honey-head{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.cards{
+    text-align: center;
+    
+}
+.cards .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.card-sub-head{
+    color: red;
+}
+.pack-btn{
+    padding: 15px;
+    margin-left: 600px;
+    margin-top: 40px;
+    width: 150px;
+    font-weight: 700;
+}
+.card:hover{
+    align-items: center;
+    border: solid 0.5px;
+    border-radius: 10px;
+   
+    box-shadow: 1px 1px 30px rgb(0, 0, 0.15);
+}
+/* festival */
+#festival{
+    margin: 5% 0px 0px 0px;
+}
+.fest-head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.carosel-height{
+    height: 60vh;
+}
+.carosel-height img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#festival{
+    z-index: 1;
+    /* margin: 5% 0px 5% 0px; */
+    width: 100%;
+    height:65rem;
+}
+.caro{
+    position: relative;
+}
+.overlay-text{
+    position: absolute;
+    top: 117rem;
+    align-items: center;
+    left: 32rem;
+    text-align: center;
+    color: white;
+}
+.overlay-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: blue;
+}
+.overlay-text p{
+    font-size: 20px;
+}
+#frame{
+    margin-top: 40px;
+    width: 500px;
+    height: 300px;
+}
+.grid{
+    width: 750px;
+    margin-left: 720px;
+    margin-top: -300px;
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: 405px;
+}
+/* tour */
+#tour{
+    margin: 3% 5% 5% 5%;
+}
+.tour-head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tour-contents{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.tour-item{
+    /* width: 500px;
+    height: 400px; */
+    align-items: center;
+    border: 5px solid rgb(207, 204, 204);
+    padding: 30px;
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+    border-radius: 15%;
+}
+.tour-item img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.tour-price{
+    display:none;
+    width: 250px;
+    height: 250px;
+    padding-top: 60px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+.tour-item:hover .tour-price{
+    display:block;
+}
+.tour-item:hover .tour-img{
+    display: none;
+}
+.tour-item:hover .tour-item{
+    background-color: cornflowerblue;
+}
+
+/* premium features */
+.premium-head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pre-sub-head{
+    font-family: "Playwrite AR", cursive;
+    color: orangered;
+    font-weight: 600;
+}
+.pre-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.pre-item{
+    width: 210px;
+    height: 260px;
+    /* border: 1px solid; */
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(208, 214, 216, 0.993);
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.pre-item img{
+    width: 100%;
+    border-radius: 100%;
+}
+.pre-item h5{
+    font-weight: 600;
+}
+.pre-item a{
+    text-decoration: none;
+}
+
+/* customer review */
+#review{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.rev-head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.rev-sub-head{
+    font-family: "Playwrite AR", cursive;
+    color: rgb(52, 99, 208);
+    font-weight: 600;
+}
+.rev-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.rev-child{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.rev-child img{
+    width: 100%;
+}
+.staricon i {
+    color: gold; 
+    font-size: 24px;
+    padding-top: 10px;
+}
+/* <!-- footer --> */
+#footer{
+    padding-top: 40px;
+    background-color: rgb(4, 4, 57);
+    color: white;
+   }
+   .parentfooter{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+   .childfooter img{
+       width: 200px;
+       height: 200px;
+       text-align: center;
+   }
+   
+   .childfooter i{
+       font-size: 30px;
+       padding: 5px;
+   }
+   .childfooter h2{
+       color: orange;
+   }
+   .childfooter h5{
+       font-weight: 300;
+       font-size: 20px;
+   }
+   .footer2{
+       text-align:center;
+   }
+
+
+@media (max-width: 1280px)
+{
+    .grid img {
+        width: 60%;
+        height: 405px;
+    }
+    .en-btn{
+        margin-left: 550px;
+    }
+    .pack-btn{
+        margin-left: 500px;
+    }
+    .overlay-text{
+        top: 110rem;
+        left: 25rem;
+        font-size: 30px;
+    }
+    .tour-contents{
+        gap: 20px;
+    }
+    .cards{
+        gap: 20px;
+    }
+}
+@media (max-width: 1280px)
+{
+    .pack-btn{
+        margin-left: 400px;
+    }
+    .overlay-text{
+        top: 105rem;
+        left: 22rem;
+    }
+    .overlay-text h1{
+        font-size: 35px;
+    }
+    #festival{
+        z-index: 1;
+        /* margin: 5% 0px 5% 0px; */
+        width: 100%;
+        height:60rem;
+    }
+    .fest-head h1{
+        font-size: 30px;
+    }
+    .tour-head h1{
+        font-size: 30px;
+    }
+    .premium-head h1{
+        font-size: 30px;
+    }
+    .honey-head h1{
+        font-size: 30px;
+    }
+    .childfooter h2{
+        font-size: 20px;
+    }
+    .childfooter h5{
+        font-size:15px ;
+    }
+    .head1,.head3{
+        font-size: 45px;
+    }
+    .head2,.head4{
+        font-size: 30px ;
+    }
+}
+@media (max-width: 1188px)
+{
+    .grid{
+        width: 500px;
+        margin-left: 720px;
+        margin-top: -300px;  
+    }
+}
+@media (max-width: 1040px)
+{
+    #frame iframe{
+        width: 500px;
+    }
+    .grid{
+        width: 600px;
+        margin-left: 550px;
+        margin-top: -300px;  
+    }
+}
+@media (max-width: 934px)
+{
+    .home-content{
+        margin-left: 35%;
+        margin-top: -2%;
+        color: white;
+    }
+    .head1,.head3{
+        font-size: 35px;
+    }
+    .head2,.head4{
+        font-size: 20px ;
+    }
+    .en-btn{
+        margin-left: 300px;
+    }
+    .nav1{
+        background-image: url("https://www.hdwallpapers.in/download/paris_eiffel_tower_france_with_blue_sky_background_hd_travel-HD.jpg");
+        height: 90vh;
+    }
+    .overlay-text{
+        top: 100rem;
+        left: 20rem;
+        font-size: 20px;
+    }
+    .overlay-text h1{
+        font-size: 25px;
+    }
+    .overlay-text p{
+        font-size: 15px;
+    }
+    #frame iframe{
+        width: 400px;
+        height: 200px;
+    }
+    .grid{
+        width: 600px;
+        margin-left: 450px;
+        margin-top: -300px;  
+    }
+    .grid img{
+        height: 200px;
+    }
+    #festival{
+        z-index: 1;
+        /* margin: 5% 0px 5% 0px; */
+        width: 100%;
+        height:45rem;
+    }
+    .pack-btn{
+        margin-left: 300px;
+    }
+    .cards {
+        /* 2 cards per row */
+        gap: 20px; /* Adjust the gap between cards as needed */
+    }
+}
+@media (max-width: 923px)
+{
+    .rev-parent{
+        gap: 50px;
+    }
+    
+}
+@media (max-width: 864px)
+{
+   .pre-content{
+    gap: 20px;
+   }
+   #frame iframe{
+    width: 400px;
+    height: 200px;
+}
+.grid{
+    width: 600px;
+    margin-left: 420px;
+    margin-top: -300px;  
+}
+.grid img{
+    height: 200px;
+}
+#festival{
+    z-index: 1;
+    /* margin: 5% 0px 5% 0px; */
+    width: 100%;
+    height:45rem;
+}
+.overlay-text{
+    top: 215rem;
+    left: 15rem;
+    font-size: 20px;
+}
+.overlay-text h1{
+    font-size: 25px;
+}
+.overlay-text p{
+    font-size: 15px;
+}
+    
+}
+@media screen and (max-width: 864px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Adjust gap as needed */
+    }
+
+}
+@media screen and (max-width: 795px)
+{
+    #frame iframe{
+        width: 400px;
+        height: 200px;
+    }
+    .grid{
+        width: 600px;
+        margin-left: 40px;
+        margin-top: -80px;  
+    }
+    .grid img{
+        height: 200px;
+    }
+    #festival{
+        z-index: 1;
+        /* margin: 5% 0px 5% 0px; */
+        width: 100%;
+        height:65rem;
+    }
+    .overlay-text{
+        top: 210rem;
+        left: 15rem;
+        font-size: 20px;
+    }
+    .overlay-text h1{
+        font-size: 20px;
+    }
+    .overlay-text p{
+        font-size: 10px;
+    }
+    .pack-btn{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 505px)
+{
+    .overlay-text{
+        top: 210rem;
+        left: 10rem;
+        font-size: 20px;
+    }
+    .overlay-text h1{
+        font-size: 20px;
+    }
+    .overlay-text p{
+        font-size: 10px;
+    }
+    .pack-btn{
+        margin-left: 150px;
+    }
+    #frame iframe{
+        width: 400px;
+        height: 200px;
+    }
+    .grid{
+        width: 600px;
+        margin-left: 20px;
+        margin-top: -80px;  
+    }
+    .grid img{
+        height: 200px;
+    }
+    #frame{
+        margin-top: -105px;
+    }
+    #festival{
+        z-index: 1;
+        /* margin: 5% 0px 5% 0px; */
+        width: 100%;
+        height:53rem;
+    }
+    .childfooter img{
+        width: 100px;
+        height: 100px;
+    }
+    .en-btn{
+        padding-top: 20px;
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width: 505px)
+{
+    #frame iframe{
+        width: 350px;
+        height: 200px;
+    }
+    .grid{
+        width: 600px;
+        margin-left: 5px;
+        margin-top: -80px;  
+    }
+    .grid img{
+        height: 200px;
+    }
+    .overlay-text{
+        top: 210rem;
+        left: 6rem;
+        font-size: 20px;
+    }
+    .overlay-text h1{
+        font-size: 20px;
+    }
+    .overlay-text p{
+        font-size: 10px;
+    }
+    .pack-btn{
+        margin-left: 90px;
+    }
+    .nav-head{
+        font-weight: 700;
+        color: orange;
+        font-size: 30px;
+    }
+    .fest-head h1{
+        font-size: 20px;
+    }
+    .tour-head h1{
+        font-size: 20px;
+    }
+    .premium-head h1{
+        font-size: 20px;
+    }
+    .pre-sub-head{
+        font-size: 15px;
+    }
+    .honey-head h1{
+        font-size: 20px;
+    }
+}
+
+
+
